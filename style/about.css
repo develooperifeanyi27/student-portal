@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    padding: 4px;
+    margin: 0;
+    background: #3498db;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.logo{
+    color: #ffff;
+    margin-top: 40px;
+    padding-left: 15px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links li{
+    list-style: none;
+    margin: 8px;
+    margin-top: 40px;
+}
+.links li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.links li .active{
+    color: #f2522e;
+}
