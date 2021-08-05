@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #010326;
+}
+.header-area{
+    height: 50px;
+    background: none;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 15px 10px 0;
+}
+.message-area{
+    height: 80%;
+    padding: 3px;
+    margin-bottom: 80vh;
+}
+
+.typing-area{
+    margin-top: 4px;
+    padding: 14px 40px 4px;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+}
+.typing-box{
+    width: 90%;
+    height: 100%;
+    background-color: lightgray;
+    color: #111;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px 10px 0;
+    border: 2px solid #fff;
+    opacity: 1;
+}
+.text-area-cont{
+    width: 100%;
+    background: lightgray;
+    opacity: 0.4;
+}
+.send-button{
+    border: 0;
+    border-radius: 12px;
+    height: 50px;
+    width: 5%;
+    background: #3459db;
+    color: #fff;
+    padding: 10px 0 10px;
+    font-size: 18px;
+    margin: 10px 2px 2px;
+    cursor: pointer;
+}
+.send-button:hover{
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+.message-box{
+    margin-top: 14px;
+}
+.others-message-box{
+}
+.my-message-box{
+    text-align: right;
+    background: ;  
+    bottom: -7px;
+}
+.my-message-box pre{
+    color: lightgray;
+}
+.message{
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+   box-shadow: 0 0.25px 0.25px lightgray, 0 0 3px lightgray;
+}
+.my-message{
+    float: right;
+    background: #3498db;
+    color: #fff;
+
+}
+.others-message{
+    float: left;
+    background: #fff;
+}
+.seperator{
+    width: 100%;
+    height: 10px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <link rel="stylesheet" href="style/staff.css">
+    <title>Home Portal</title>
+</head>
+<body>
+    <nav>
+        <div class="something"></div>
+        <div class="logo"><img src="image/images.png" height="60px" alt=""></div>
+        <div class="links">
+            <li><a href="profile.html"><img src="icon/profile.png" alt="" height="60px"></a></li>
+        </div>
+    </nav>
+    <!--CONTAINER-->
+    <!--Menu button-->
+    <div id="sidebar">
+        <div class="toggle-btn" id="button" onclick="change()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Portal</li>
+            <li>About</li>
+            <li>Logout</li>
+        </ul>
+    </div>
+    <!--/CONTAINER-->
+    <!--SLIDE BEGINS-->
+    <div class="slidershow middle">
+            
+        <div class="slides">
+
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+
+            <div class="slide s1">
+                <img src="back.jpg" height="452px" width="678px" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="cameraphoto/wantdis.jpg"  height="452px" width="678px" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="cameraphoto/anddis.jpg"  height="452px" width="678px" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="cameraphoto/anddisone.jpg"  height="452px" width="678px" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="cameraphoto/ilikedis.jpg"  height="452px" width="678px" alt="">
+            </div>
+        </div>
+
+        <!--Radio boxzzies-->
+        <input type="radio" name="Photos" id="check1" checked>
+        <input type="radio" name="Photos" id="check2" >
+        <input type="radio" name="Photos" id="check3" >
+        <input type="radio" name="Photos" id="check4" >
+        <!--ZAh END-->
+
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+        </div>
+    </div>
+    <!--CATALOG BOX-->
+    <div class="container">
+        <h1>EDUCATION FOR ALL!</h1>
+        <div class="top-content">
+            <label for="check1">Notes and Resourse</label>
+            <label for="check2">Accomodation</label>
+            <label for="check3">Chat Room</label>
+            <label for="check4">Time-Table</label>
+        </div>
+        <!--==================RIGHT HERE BITCHEEEEEEEZ ====================-->
+        <div class="photo-gallery">
+            <div class="pic place" >
+                <img src="back.jpg" height="640px" width="85%" alt="">
+            </div>
+            <a href="accessmentstaff.html"><div class="pic family" id="campus">
+                <img src="otherimg/two.jpg" height="640px" width="85%" alt="">
+            </div></a>
+            <a href="notes&resources.html"><div class="pic place" id="online-ed">
+                <img src="otherimg/three.jpg" height="640px" width="85%" alt="">
+            </div></a>
+            <a href="chat.html"> <div class="pic child" id="chat-room">
+                <img src="otherimg/four.jpg" height="640px" width="85%" alt="">
+                </div>
+            </a>
+        </div>
+          
+    </div>
+    <!--===========================STOP HERE BITCHES ======================================-->
+
+    <footer>
+        <div class="logo">
+            <h3 id="footer-logo">LINCOLN LOGO</h3>
+        </div>
+        <div class="term-policy">
+            <li><a href="#">Terms</a> and <a href="#">Policy</a></li>
+        </div>
+        <div class="bottom">
+            &copy;Copy Rights Reserved | www.lincoln college of science.com | made by maurice &hearts;
+        </div>
+    </footer>
+<script class="text/javascript">
+var something = document.getElementById("sidebar");
+var  another = document.getElementById("button");
+function change(){
+    something.style.left = "1%";
+    another.style.display = "none";
+}
+
+/*to remove the span*/
+
+</script>
+</body>
+</html>

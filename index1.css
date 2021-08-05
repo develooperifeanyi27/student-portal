@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    background: #fff;
+    padding: 0;
+    font-family: sans-serif;
+}
+.first{
+    margin: 0;
+    padding: 20px 40px 12px;
+    height: 30px;
+    background: rgb(240, 14, 14);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first .logo{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.first .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 24px;
+    text-decoration: none;
+}
+.first .links li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.first .links li a{
+    color: #fff;
+    font-weight: 200;
+}
+.first .links li .active{
+    color: #f2522e;
+    font-size: large;
+    text-decoration: none;
+}
+
+/* IT'S TIME TO STYLE THE BOOOOOODY Y'ALL*/
+
+.second{
+    height: 600px;
+    margin-top: 2px;
+    color: #fff;
+    background: url(image/image7.jpg) no-repeat;
+    background-size: cover;
+}
+.second .info{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    background: black;
+    opacity: 0.5;
+    height: 360px;
+    padding-top: 50px;
+    padding-bottom: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+.second .info .title{
+    margin-bottom: 18px;
+}
+.second .info .title h1{
+    color: #fff; 
+    font-size: xxx-larger;
+    text-decoration: underline #fff;
+}
+.second .info p{
+    font-size: 14px;
+}
+.btn{
+    background: #3498db;
+    cursor: pointer;
+    line-height: 80px;
+    padding: 15px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 300px;
+}
+.btn a{
+    color: #fff ;
+}
+.third{
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    padding-top: 110px;
+    height: 600px;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    background: #ccc;
+}
+.third .mark{
+    width: 80px;
+    height: 7px;
+    background: #49515f;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 34px;
+}
+.third h1{
+    color: #1e3259;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.third .txt1{
+    text-align: center;
+}
+.third .btn1{
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;  
+    height: 30px;       
+    background: #206fa3;
+    color: #fff;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.third .image1{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    background: url(image/image7.jpg) no-repeat;
+    background-size: cover;
+}
+.pagewrapper{
+    width: 100px;
+    height: 240%;
+}
+footer{
+    background: #1e3259;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;  
+    text-decoration: none;
+
+}
+footer .cont{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;      
+}
+footer .cont h3{
+    color: #f2522e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 8px;
+    border-bottom: 3px solid #fff;
+    border-bottom-left-radius: 4px;
+}
+footer .cont li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+footer .cont a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer .bottom{
+    color: #f2f2f2;
+    background: #000;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
